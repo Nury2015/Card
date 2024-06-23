@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.card {
+    
+    width: 300px;
+    height: 450px;
+    background-color: #FADBD8;
+    border-radius: 20px;
+    justify-content: left;
+    overflow: hidden;
+    position: static;
+    border: 5px dotted #AF7AC5;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.imagenes {
+    width: 300px;
+    height: 170px;
+
+}
+
+
+.card p:nth-child(4) {
+    color: #000000;
+    font-size: 1rem;
+}
+
+.portada {
+    width: 100%;
+}
+
+
+.perfil {
+    width: 100px;
+    height: 100px;
+    top: -70px;
+    left: 95px;
+    border-radius: 50%;
+    position: relative;
+    padding: 0;
+    border: 5px solid rgb(204, 90, 147);
+}
+
+.demon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    top: -200px;
+    right:-100px;
+    position: relative;
+
+}
+
+.nombre {
+    
+    color: #AF7AC5;
+    font-size: 2rem;
+    font-weight: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 1px groove lightseagreen;
+    background-color: aqua;
+    font-family:impact ;
+}
+.poderes{
+    display: flex;
+    flex-direction: column;
+    
+    font-family:cursive;
+    top: 0px;
+}
